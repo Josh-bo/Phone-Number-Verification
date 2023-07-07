@@ -1,6 +1,7 @@
 const verify = () => {
     if(getNumber.value == ""){
         display.innerHTML = "Please enter a Phone number"
+        nameContainer.innerHTML = ``
 
         TimeOut()
     }
