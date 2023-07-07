@@ -20,7 +20,7 @@ const verify = () => {
         let NumberSliced = getNumber.value.slice(0,4)
         console.log(NumberSliced)
 
-        if(NumberSliced == "0803" || NumberSliced == "0806" || NumberSliced == "0703" || NumberSliced == "0706" || NumberSliced == "0810" || NumberSliced == "0813" || NumberSliced == "0814" || NumberSliced == "0816" || NumberSliced == "0903" || NumberSliced == "0906" || NumberSliced == "0904"){
+        if(NumberSliced == "0803" || NumberSliced == "0806" || NumberSliced == "0703" || NumberSliced == "0706" || NumberSliced == "0810" || NumberSliced == "0813" || NumberSliced == "0814" || NumberSliced == "0816" || NumberSliced == "0903" || NumberSliced == "0906" || NumberSliced == "0904" || NumberSliced == "0704"){
            
             spinnerFunction()
             setTimeout(() => {
