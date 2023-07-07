@@ -2,12 +2,18 @@ const verify = () => {
     if(getNumber.value == ""){
         display.innerHTML = "Please enter a Phone number"
         nameContainer.innerHTML = ``
+        
+        TimeOut()
+    }
+    else if(typeof getNumber.value != Number){
+        display.innerHTML = "Only Number is allowed!, Texts are prohibited"
 
         TimeOut()
     }
     else if(getNumber.value.length != 11){
         display.innerHTML = "Phone number must be 11 digits"
         TimeOut()
+        nameContainer.innerHTML = ``
     }
     // MTN
     else if(getNumber.value.length == 11){
