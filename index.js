@@ -5,11 +5,11 @@ const verify = () => {
         
         TimeOut()
     }
-    else if(typeof getNumber.value != Number){
-        display.innerHTML = "Only Number is allowed!, Texts are prohibited"
+    // else if(typeof getNumber.value != Number){
+    //     display.innerHTML = "Only Number is allowed!, Texts are prohibited"
 
-        TimeOut()
-    }
+    //     TimeOut()
+    // }
     else if(getNumber.value.length != 11){
         display.innerHTML = "Phone number must be 11 digits"
         TimeOut()
