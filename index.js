@@ -47,7 +47,7 @@ const verify = () => {
             }, 3000);
         }
           // AIRTEL
-    else if(NumberSliced == "0802" || NumberSliced == "0808" || NumberSliced == "0812" || NumberSliced == "0701" || NumberSliced == "0708" || NumberSliced == "0902" || NumberSliced == "0907" || NumberSliced == "0901"){
+    else if(NumberSliced == "0802" || NumberSliced == "0808" || NumberSliced == "0812" || NumberSliced == "0701" || NumberSliced == "0708" || NumberSliced == "0902" || NumberSliced == "0907" || NumberSliced == "0901" || NumberSliced == "0912"){
            
         spinnerFunction()
         setTimeout(() => {
